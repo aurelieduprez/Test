@@ -1,0 +1,52 @@
+{
+  "name": "Custom",
+  "textClasses": {
+    "title": {
+      "color": "#000055",
+      "fontFace": "'Segoe UI Semibold', wf_segoe-ui_semibold, helvetica, arial, sans-serif"
+    }
+  },
+  "dataColors": [
+    "#000055",
+    "#12239E",
+    "#F5AF03",
+    "#F58003",
+    "#E044A7",
+    "#744EC2",
+    "#D9B300",
+    "#D64550"
+  ],
+  "visualStyles": {
+    "*": {
+      "*": {
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": "#D3CFCF"
+              }
+            }
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "Applied",
+            "backgroundColor": {
+              "solid": {
+                "color": "#000055"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  },
+  "minimum": "#F5AF03",
+  "maximum": "#000055"
+}
